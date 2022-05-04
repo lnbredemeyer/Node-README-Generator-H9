@@ -1,29 +1,63 @@
-// TODO: Include packages needed for this application
-
 const inquirer = require("inquirer");
-inquirer
-  .prompt([
+const generateMarkdown = require('./utils/generateMarkdown');
+
+//questions for the user to answer
+const questions = ([
     {
         type: 'input',
-        name: 'firstName',
-        message: 'What is your first name?',
+        name: 'github',
+        message: 'What is your GitHub Username?',
     },
 
     {
         type: 'input',
-        name: 'lastName',
-        message: 'What is your last name?',
+        name: 'email',
+        message: "What is your email?",
     },
 
     {
         type: 'input',
-        name: 'title',
-        message: 'What is your job title?',
+        name: 'project',
+        message: 'What is the name of your project?',
+    },
+
+    {
+        type: 'input',
+        name: 'description',
+        message: 'Enter a description of the project',
+    },
+
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'What installation instructions are there?',
+    },
+
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'What is the usage information?',
+    },
+
+    {
+        type: 'input',
+        name: 'contributing',
+        message: 'What is the contribution guidelines?',
+    },
+
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'What is the test instructions?',
+    },
+
+    {
+        type: 'list',
+        name: 'license',
+        message: 'Provide the license information',
+        choices: ["MIT", "Mozilla_Public", "GNU_Affero General Public Licence v3", "GNU_General Public License v2", "GNU_Lesser General Public License v2.1", "Apache_2.0"],
     },
 ]);
-
-// TODO: Create an array of questions for user input
-const questions = [];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
@@ -31,13 +65,7 @@ function writeToFile(fileName, data) {}
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((data) => {
-        const markdown = generateMarkdown(data);
-        fs.writeFile('README.MD', markdown, (err) => {
-            if (err) {
-                console.log(err);
-            }
-            console.log('README file generated');
-        });
+        generateMarkdown(data);
     });
 }
 
