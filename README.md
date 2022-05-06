@@ -27,7 +27,10 @@
 
 ## Screenshots & GIF
 ![alt tag](https://user-images.githubusercontent.com/99215212/167214603-9bf475cc-3af9-44a3-9ed8-77bb7bb1cc22.png "screenshot")
+
 ![alt tag](https://user-images.githubusercontent.com/99215212/167214699-af457ae9-9bc4-4e86-8308-018903f72bb4.png "screenshot")
+
+![alt tag](https://user-images.githubusercontent.com/99215212/167219674-1f7e670d-904c-4f17-9d66-87b376a148a9.mp4 "video")
 
 ## Links:
 * To view the repo, please click: https://github.com/lnbredemeyer/Node-README-Generator-H9

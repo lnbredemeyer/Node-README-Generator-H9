@@ -19,13 +19,13 @@ https://github.com/${data.github}/${data.project}
 ${data.description}
 
 ## Table of Contents
-* [Installation](#installation)
-* [Description](#description)
-* [Usage](#usage)
-* [License](#license)
-* [Contributors](#contributors)
-* [Tests](#tests)
-* [Questions](#questions)
+- [Installation](#installation)
+- [Description](#description)
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 The following must be installed to run the application ${data.installation}
@@ -48,4 +48,3 @@ If you have any questions, open an issue or contact ${data.github}}
 }
 
 module.exports = generateMarkdown;
-module.exports = licenseBadgeLinks;
