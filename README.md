@@ -1,34 +1,34 @@
 
-# readme
-https://github.com/lnbredemeyer/readme
+# Node-README-Generator-H9
 
-# Description
-create a readme
+## Description
+* Using code, I've created a README generator that users can use to create a README by answering questions through the terminal using Node.
 
-# Table of Contents
-* [Installation] (#installation)
-* [Description] (#description)
-* [Usage] (#usage)
-* [License] (#license)
-* [Contributors] (#contributors)
-* [Tests] (#tests)
-* [GitHub] (#github)
+## Built with:
+* .js
+* node
+* npm
 
-# Installation
-The following must be installed to run the application install npm
+## Usage:
+* WHEN a user is prompted for information about an application repository
+* THEN a high-quality, professional README.md is generated with the title of a project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+* WHEN a project title is entered
+* THEN this is displayed as the title of the README
+* WHEN a description, installation instructions, usage information, contribution guidelines, and test instructions is entered
+* THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+* WHEN a license for my application from a list of options is chosen
+* THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+* WHEN the GitHub username is entered
+* THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+* WHEN an email address is entered
+* THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+* WHEN the links in the Table of Contents are clicked
+* THEN I am taken to the corresponding section of the README
 
-# Usage
-In order to use this app, use it
+## Screenshots & GIF
+![alt tag](https://user-images.githubusercontent.com/99215212/167214603-9bf475cc-3af9-44a3-9ed8-77bb7bb1cc22.png "screenshot")
+![alt tag](https://user-images.githubusercontent.com/99215212/167214699-af457ae9-9bc4-4e86-8308-018903f72bb4.png "screenshot")
 
-# License
-This project is licensed under the MIT license.
-[![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)
-
-# Contributing
-Contributers: guideline
-
-# Tests
-The following is needed to run the tests: test it
-
-# Questions
-If you have any questions, open an issue or contact lnbredemeyer}
+## Links:
+* To view the repo, please click: https://github.com/lnbredemeyer/Node-README-Generator-H9
+```
