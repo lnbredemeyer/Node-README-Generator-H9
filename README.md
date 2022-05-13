@@ -34,4 +34,5 @@
 
 ## Links:
 * To view the repo, please click: https://github.com/lnbredemeyer/Node-README-Generator-H9
+* To view the video, please click: https://youtu.be/JQ1zXsy88TU
 ```
